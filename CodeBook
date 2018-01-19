@@ -577,7 +577,16 @@ Raw data :
     559 angle(X,gravityMean)
     560 angle(Y,gravityMean)
     561 angle(Z,gravityMean)
-
-    Processed data:
-    activities variable wa added to the data set and was converted to a factor with levels:(1,2,3,4,5,6) and labels: (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, 
-    SITTING, STANDING, LAYING),participents variable was added using the subject_train and subject_test. 
+    
+Processed data:
+    activities variable was added to the dataset and was converted to a factor with levels:(1,2,3,4,5,6) and labels: (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, 
+    SITTING, STANDING, LAYING),participents variable was added using the subject_train and subject_test data sets. 
+    Variable names were changed like the following:
+      *names containing mean were changed to Mean.
+      *names containing std were changed to Std.
+      *f was replaced with frequency.
+      *t was time.
+      *Acc was replaced with Accelrator.
+      *Mag was replaced with Magnitude.
+      *Gyro was replaced with Gyroscope. 
+      
