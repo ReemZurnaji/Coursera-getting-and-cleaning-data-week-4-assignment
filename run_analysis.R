@@ -42,7 +42,7 @@ StdIndex <- grep(".*std.*",colnames(data),value = F)
 #Extracting only the measurements on the mean and standard deviation:
 MeanFeatures <- data[MeanIndex]
 StdFeatures <- data[StdIndex]
-wantedfearures <- cbind(MeanFeatures,STDFeatures)
+data <- cbind(MeanFeatures,STDFeatures)
 #Useing descriptive activity names to name the activities in the data set:
 data$activities <- factor(data$activities,labels = activitylables[,2],levels = activitylables[,1])
 #Naming the variables properly with descriptive and simpler names:
