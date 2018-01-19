@@ -11,7 +11,6 @@ fileurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%2
 if (!(file.exists("./data"))){ dir.create("./data")}
 download.file(fileurl,destfile =temp)
 unzip(temp, list = TRUE)#unzipe the file
-list.files("./data") #to get a list of the files in the data directory and gave a better idea about the files 
 setwd("./data/UCI HAR Dataset")
 unlink(temp)
 #Reading the files and storing them into variables:
