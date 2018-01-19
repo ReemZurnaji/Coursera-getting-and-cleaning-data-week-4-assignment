@@ -1,8 +1,8 @@
 # Coursera-getting-and-cleaning-data-week-4-assignment
 This is the course project for Getting and Cleaning Data Coursera course. The R script, run_analysis.R, does the following:
 
-1)Download the dataset and unzip it if it does not already exist in the working directory
-2)Load both the activity labels and features data
+1)Download the dataset and unzip it if it does not already exist in the working directory.
+2)Load both the activity labels and features data.
 3)Load both the training and test datasets.
 4)load the training subject and test subject data.
 5)merging the train and test datasets rowwise after naming the variables and adding the subject and acticities data to both data sets.
